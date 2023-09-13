@@ -19,6 +19,8 @@ const Home = () => {
 					title="A Warm Welcome!"
 					description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ispa, ispam, eligendi, in quo sunt possimus non incidunt odit vero aliquid similique quaeart name nobis illo aspernatur vitea fugiat numquam repellat."
 					buttonLabel="Call to action!"
+					buttonUrl="#"
+					buttonSize='btn btn-primary btn-lg'
 				/>
 				<div className="row mt-4">
 					<MyCard
@@ -26,24 +28,32 @@ const Home = () => {
 						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapiente esse necessitatibus neque."
 						buttonLabel="Find Out More!"
 						imageUrl="https://via.placeholder.com/500x325"
+						buttonUrl="#"
+						buttonSize='btn btn-primary'
 					/>
 					<MyCard
 						title="My Card"
 						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto."
 						buttonLabel="Find Out More!"
 						imageUrl="https://via.placeholder.com/500x325"
+						buttonUrl="#"
+						buttonSize='btn btn-primary'
 					/>
 					<MyCard
 						title="My Card"
 						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sapiente esse necessitatibus neque."
 						buttonLabel="Find Out More!"
 						imageUrl="https://via.placeholder.com/500x325"
+						buttonUrl="#"
+						buttonSize='btn btn-primary'
 					/>
 					<MyCard
 						title="My Card"
 						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Explicabo magni sapiente, tempore debitis beatae culpa natus architecto."
 						buttonLabel="Find Out More!"
 						imageUrl="https://via.placeholder.com/500x325"
+						buttonUrl="#"
+						buttonSize='btn btn-primary'
 					/>
 				</div>
 			</div>

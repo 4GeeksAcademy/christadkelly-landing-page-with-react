@@ -12,7 +12,10 @@ const MyCard = (prop) => {
 				    <p className="card-text">{prop.description}</p>
 			    </div>
                 <div className="card-footer text-body-secondary">
-                    <MyButton label={prop.buttonLabel}/>
+                    <MyButton 
+					label={prop.buttonLabel}
+					url = {prop.buttonUrl}
+					size={prop.buttonSize}/>
 			    </div>
 		    </div>
         </div>
@@ -24,6 +27,8 @@ MyCard.propTypes = {
 	imageUrl: PropType.string,
 	description: PropType.string,
 	buttonLabel: PropType.string,
+	buttonUrl: PropType.string,
+	buttonSize: PropType.string
 };
 
 export default MyCard;

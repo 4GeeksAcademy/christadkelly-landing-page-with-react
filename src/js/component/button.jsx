@@ -4,13 +4,15 @@ import PropType from "prop-types";
 const MyButton = (prop) => {
     return(
     <div>
-        <button type="button" className="btn btn-primary">{prop.label}</button>
+        <a type="button" className={prop.size} href={prop.url}>{prop.label}</a>
     </div>
     );
 };
 
 MyButton.propType = {
-    label: PropType.string
+    label: PropType.string,
+    url: PropType.string,
+    size: PropType.string
 }
 
 export default MyButton
