@@ -12,7 +12,7 @@ const MyJumbotron = (prop) => {
                 <MyButton 
                 label={prop.buttonLabel}
                 url={prop.buttonUrl}
-                size={prop.buttonSize}/>
+                classes={prop.buttonClasses}/>
             </div>
         </div>
     );
@@ -23,7 +23,7 @@ MyJumbotron.propTypes = {
 	description: PropType.string,
     buttonLabel: PropType.string,
     buttonUrl: PropType.string,
-    buttonSize: PropType.string,
+    buttonClasses: PropType.string,
 };
 
 export default MyJumbotron;
