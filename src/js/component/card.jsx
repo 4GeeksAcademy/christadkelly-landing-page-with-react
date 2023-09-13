@@ -1,5 +1,6 @@
 import React from "react";
 import PropType from "prop-types";
+import MyButton from "./button";
 
 const MyCard = (prop) => {
     return(
@@ -11,9 +12,7 @@ const MyCard = (prop) => {
 				    <p className="card-text">{prop.description}</p>
 			    </div>
                 <div className="card-footer text-body-secondary">
-                    <a href="#" className="btn btn-primary">
-					    {prop.buttonLabel}
-				    </a>
+                    <MyButton label={prop.buttonLabel}/>
 			    </div>
 		    </div>
         </div>
