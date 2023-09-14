@@ -1,7 +1,9 @@
 import React from "react";
+import PropType from "prop-types";
 import MyNavBar from "./navBar.jsx";
 import MyJumbotron from "./jumbotron.jsx";
 import MyCard from "./card.jsx";
+import MyFooter from "./footer.jsx";
 
 //create your first component
 const App = () => {
@@ -57,9 +59,7 @@ const App = () => {
 					/>
 				</div>
 			</div>
-			<div class="container-fluid text-center text-bg-dark p-3">
-				Copyright @ My Website 2023
-			</div>
+			<MyFooter />
 		</div>
 	);
 };
